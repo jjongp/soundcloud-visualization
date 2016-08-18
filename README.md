@@ -1,7 +1,7 @@
 # soundcloud-visualization
 
 
-[![alt text](http://cmiscm.github.com/material-interaction/screenshot/mi.jpg)](http://cmiscm.github.com/material-interaction/)
+[![alt text](https://raw.githubusercontent.com/jjongp/soundcloud-visualization/3fc707b823507a930ea2ee94df0c16c3cc294ffe/image.jpg)]
 
 
 ### Soundcloud Search API
