@@ -5,6 +5,7 @@
 
 
 ### Soundcloud Search API
+[https://developers.soundcloud.com/docs/api/guide#search](https://developers.soundcloud.com/docs/api/guide#search)
 ```html
 <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
 <script>
@@ -19,13 +20,11 @@ SC.get('/tracks', {
   console.log(tracks);
 });
 </script>
-https://developers.soundcloud.com/docs/api/guide#search
 ```
 
 
 ### URL
 [http://www.p-young.com/lab/vz/visualization_v2.html](http://www.p-young.com/lab/vz/visualization_v2.html)
-
 
 
 ### License

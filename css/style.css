@@ -1,0 +1,54 @@
+html, body { 
+    margin: 0; 
+    overflow: hidden;
+}
+#all { 
+    position: absolute; 
+    z-index: 999; 
+    left:20px; 
+    top:30px; 
+}
+.title { 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+.mp3 {
+    font-size: 12px; 
+    margin-top: 15px;
+}
+.mp3 span, .mp3 audio { 
+    display: block;  
+    margin-top: 5px;
+}
+.mp3 span {
+    margin-top: 10px; 
+    font-weight: bold; 
+    width: 300px; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.footer {
+    position: absolute;
+    font-size: 11px;
+    left:20px;
+    top:170px;
+}
+ul { 
+    list-style: none; 
+    margin-left: 0; 
+    padding: 0;  
+}
+ul li { 
+    margin-top: 3px; 
+}
+ul li a { 
+    display: block;
+    font-size: 11px;
+    color: #333;
+    text-decoration: none;
+    width: 300px; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
