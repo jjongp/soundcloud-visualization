@@ -1,5 +1,7 @@
-var visualizer
+// SoundCloud Client ID
 var sc_id = 'YOUR_CLIENT_ID'
+var visualizer
+
 $(document).ready(function () {
     function isIE() { 
         return ((navigator.appName == 'Microsoft Internet Explorer') || ((navigator.appName == 'Netscape') && (new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent) != null))); 
@@ -20,7 +22,7 @@ $(document).ready(function () {
     $('#search').focus()
     
     SC.initialize({
-      client_id: sc_id//'7d46f95286398652d69810f503cf57c4'
+      client_id: sc_id
     });
     fnCheck()    
 })

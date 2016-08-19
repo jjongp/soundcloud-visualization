@@ -1,7 +1,7 @@
 # soundcloud-visualization
 
 
-[![alt text](https://raw.githubusercontent.com/jjongp/soundcloud-visualization/3fc707b823507a930ea2ee94df0c16c3cc294ffe/image.jpg)]
+[![alt text](https://raw.githubusercontent.com/jjongp/soundcloud-visualization/3fc707b823507a930ea2ee94df0c16c3cc294ffe/image.jpg)](http://www.p-young.com/?p=3126)
 
 
 ### Soundcloud Search API
@@ -22,14 +22,21 @@ SC.get('/tracks', {
 </script>
 ```
 
+### SoundCloud Client ID
+Add vz2.js in your Javascript code.
+```js
+
+// SoundCloud Client ID
+var sc_id = 'YOUR_CLIENT_ID'
+
+```
 
 ### URL
-[http://www.p-young.com/lab/vz/visualization_v2.html](http://www.p-young.com/lab/vz/visualization_v2.html)
+[sample url](http://www.p-young.com/lab/vz/visualization_v2.html)
+[blog](http://www.p-young.com/?p=3126)
 
 
 ### License
 Copyright (c) pyoung (http://www.p-young.com)
-
 Licensed under the MIT license.
-
  - http://www.opensource.org/licenses/mit-license.php
