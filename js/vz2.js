@@ -50,6 +50,7 @@ function AudioVisualizer() {
     this.tracks
     this.songNum = 0
     this.songList = {}
+    this.awNullimgUrl = "https://bytebucket.org/jjongp/pyoung/raw/837d2c52fb765b36c70bbf52940305a310e98312/artwork.jpg?token=66e9f6dc12c7659bdaf97724f521032de3a4fcbc"
     
     this.audio = document.querySelector('audio')
     this.audio.crossOrigin = "anonymous";
@@ -112,7 +113,7 @@ AudioVisualizer.prototype.createObject = function(){
     this.textureLoader.crossOrigin = ""
     this.geometry = new THREE.PlaneGeometry(50, 40, 20, 20)
     this.material = new THREE.MeshLambertMaterial({
-        map : that.textureLoader.load('artwork.jpg'),
+        map : that.textureLoader.load(that.awNullimgUrl),
         side: THREE.DoubleSide, 
         color: 0x00A896,
         morphTargets: true
@@ -220,7 +221,7 @@ AudioVisualizer.prototype.songSet = function(){
             a_url = ar_url.replace("large", "crop")
             that.material.map = that.textureLoader.load(a_url)
         }else{
-            that.material.map = that.textureLoader.load("artwork.jpg")
+            that.material.map = that.textureLoader.load(that.awNullimgUrl)
         }
 
         // title
