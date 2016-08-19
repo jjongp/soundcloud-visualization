@@ -33,10 +33,13 @@ var sc_id = 'YOUR_CLIENT_ID'
 
 ### URL
 [sample url](http://www.p-young.com/lab/vz/visualization_v2.html)
+
 [blog](http://www.p-young.com/?p=3126)
 
 
 ### License
 Copyright (c) pyoung (http://www.p-young.com)
+
 Licensed under the MIT license.
+
  - http://www.opensource.org/licenses/mit-license.php
